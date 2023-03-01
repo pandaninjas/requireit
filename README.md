@@ -6,7 +6,7 @@ Requireit is smart on-run package install for your Python code. Basically you ad
 There are three versions of requireit:
 1. The [full version](requireit.py?raw=true). It has docstrings and works if you paste it at the top of your code or if you include it.
 2. The [mini version](requireitmini.py?raw=true). It's half as small as the full version, but has everything except docstrings and nice formatting.
-3. The [mini inline version](requireitmini-inline.py?raw=true), only 13 lines. It is hard-coded so you have to paste it at the top of your code, or do this instead of an import:
+3. The [mini inline version](requireitmini-inline.py?raw=true), which has been golfed to one line. You can include it or do
 ```python3
 exec(open("requireitmini-inline.py", "r").read())
 ```
